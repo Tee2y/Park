@@ -1,0 +1,81 @@
+* {
+    margin: 7.5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    width: 500px;
+    height: 450px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    position: relative;
+    font-size: 20px;
+}
+
+.Container ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.Container ul li {
+    padding: 15px;
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 40px;
+}
+
+.fa-github {
+    font-size: 40px;
+}
+
+.fa-linkedin {
+    color: blue;
+    font-size: 40px;
+}
+
+.fa-youtube {
+    color: red;
+    font-size: 40px;
+}
+
+
+/*Container2*/
+
+.Container2 {
+    width: 800px;
+    height: 90px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    position: relative;
+    font-size: 20px;
+}
+
+.Container2 ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.Container2 ul li {
+    padding: 30px;
+}
+
+.fa-twitter {
+    color: rgb(70, 70, 209);
+}
+
+.fa-pinterest {
+    color: red;
+}
+
+.fa-instagram {
+    color: red;
+}
+
+.fa-whatsapp {
+    color: green;
+}
