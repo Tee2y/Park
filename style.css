@@ -1,81 +1,123 @@
 * {
-    margin: 7.5px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+  
 
-.Container {
-    width: 500px;
-    height: 450px;
-    background-color: yellow;
-    border: 1px solid yellow;
+
+/* Navbar*/
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
     position: relative;
-    font-size: 20px;
+    background-color: #400b2c;
+
 }
 
-.Container ul {
+.navbar li {
     display: flex;
     list-style: none;
-    flex-direction: column;
 }
 
-.Container ul li {
-    padding: 15px;
-}
-
-.fa-facebook {
-    color: blue;
-    font-size: 40px;
-}
-
-.fa-github {
-    font-size: 40px;
-}
-
-.fa-linkedin {
-    color: blue;
-    font-size: 40px;
-}
-
-.fa-youtube {
-    color: red;
-    font-size: 40px;
-}
-
-
-/*Container2*/
-
-.Container2 {
-    width: 800px;
-    height: 90px;
-    background-color: yellow;
-    border: 1px solid yellow;
-    position: relative;
-    font-size: 20px;
-}
-
-.Container2 ul {
+.navbar ul {
     display: flex;
-    flex-direction: row;
     list-style: none;
+    margin: 0.2rem 1rem;
+    
 }
 
-.Container2 ul li {
-    padding: 30px;
+.navbar ul li {
+    font-family: century;
+    font-size: 0.75rem;
+    font-style: italic;
+    font-weight: bold;
+    
 }
 
-.fa-twitter {
-    color: rgb(70, 70, 209);
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    transition: all 1.5s ease;
 }
 
-.fa-pinterest {
-    color: red;
+.navbar ul li a:hover {
+    background-color: #400b2c;
+    color: rgb(0, 0, 255);
+    padding: 0.5rem;
+    z-index: 1;
 }
 
-.fa-instagram {
-    color: red;
+.move{
+display: flex;
+color: rgb(153, 88, 88);
+font-size:  2.2rem; 
+top:0.33rem;
+position: absolute;
+
+}
+.head{
+    font-weight: lighter;
+    padding-left: 52rem;
+}
+.end{
+    padding-top: 1rem;
 }
 
-.fa-whatsapp {
-    color: green;
+
+
+
+
+/*Body*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
+.square{
+    display: flex;
+    position: relative;
+    background-color:rgb(22, 20, 20);
+    height: 20rem;
+    width: 30rem;
+   left: 20rem;
+   top: 5rem;
+   border-radius: 25px;
+   border-style: solid;
+   border-color: black;
+}
+   input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 30%;
+    height: 10%;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    top:18rem;
+    left: 2rem;
+    margin-left: 9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+   
+   
+   
+
+
+
+

@@ -1,37 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/e5ba67835b.js" crossorigin="anonymous"></script>
+          <script src="https://kit.fontawesome.com/e5ba67835b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fontawesome.com/icons/space-station-moon-construction?s=solid">
+    <link rel="stylesheet" href="https://fontawesome.com/search?q=moon&s=solid%2Cbrands">
+  
+    <title>Document</title>
 </head>
+<style>
+body {
+  background-color:white;
+}
+.hamburger{
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: yellow;
+    height:auto;
+    
+    
+  }
+  
+}
 
-<body>
-    <div class="Container">
-        <ul>
-            <li><i class="fa-brands fa-facebook"></i> Facebook</li>
-            <li><i class="fa-brands fa-github"></i>Github</li>
-            <li><i class="fa-brands fa-linkedin"></i>Linkedin</li>
-            <li><i class="fa-brands fa-youtube"></i>Youtube</li>
+
+
+}
+
+#name{
+width: 50%;
+position: absolute;
+margin-left: 7rem;
+margin-top: 3rem;
+padding-left:4rem;
+border-radius: 0.5rem;
+}
+
+#cn{
+  width: 70%;
+  position: absolute;
+  top:8.5rem;
+  left:4rem;
+  padding-left:8rem;
+  
+}
+
+#cvv{
+  width:4.5rem;
+  position: relative;
+  left:2rem; 
+  top:15rem;
+  
+}
+#date{
+  width: 8rem;
+  position:relative;
+  top:15rem;
+  left:15rem;
+}
+
+
+</style>
+
+<body>  
+    <div>
+        
+               
+        
+  <nav class="navbar">
+       
+          <ul class="move">
+<span>
+  <a href="/"><i class="fa-thin fa-badge-dollar"></i></i></a>
+</span>
+ <span>
+              CR $  Y  $ PS
+        </span>
+
+
+              
         </ul>
 
-    </div>
-    <br/>
-    <div class="Container2">
-        <ul>
-            <li><i class="fa-brands fa-twitter"></i>Twitter</li>
-            <li><i class="fa-brands fa-pinterest"></i>Pinterest</li>
-            <li><i class="fa-brands fa-instagram"></i>Instagram</li>
-            <li><i class="fa-brands fa-whatsapp"></i>Whatsapp</li>
+        <ul class="head">
 
+         <li><a href="/">Login</a></li>
+              
+       <li><a href="/">Register</a></li>
+       <li><a href="/">Purchase Crypto</a></li>
+       <li><a href="/">Support</a></li>
+        <li><a href="/">Markets</a></li>
         </ul>
+      <li class="end">
+          <a href="/"><i class="fa-solid fa-moon"></i></i></a>
+        
+    </li>
+    </nav>
+    <br />
+    
     </div>
+    
+   
 
+    <div class="square">
+      <form action="/action_page.php" class="form">
 
+        <input type="text" id="name"  placeholder="What's your name?">
+        <input type="text" id="cn"  placeholder="Card Number">
+        <input type="text" id="cvv"  placeholder="CVV">
+        <input type="text" id="date" name="firstname" placeholder="yyyy-mm-dd">
+        <input type="submit" value="Save">
+        </form>
+        </div> 
+        
 </body>
 
 </html>
