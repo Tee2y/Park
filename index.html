@@ -44,7 +44,6 @@ border-radius: 0.5rem;
   position: absolute;
   top:8.5rem;
   left:4rem;
-  padding-left:8rem;
   
 }
 
@@ -58,8 +57,17 @@ border-radius: 0.5rem;
 #date{
   width: 8rem;
   position:relative;
+  
   top:15rem;
   left:15rem;
+}
+#pin{
+  width:5rem;
+  position:relative;
+  padding-left:1.8rem;
+  top:15rem;
+  right: 1rem;
+
 }
 
 
@@ -107,10 +115,12 @@ border-radius: 0.5rem;
     <div class="square">
       <form action="/action_page.php" class="form">
 
-        <input type="text" id="name"  placeholder="What's your name?">
-        <input type="text" id="cn"  placeholder="Card Number">
+        <input type="text" id="name" placeholder="What's your name?">
+        <input type="text" id="cn"   placeholder="Card Number">
         <input type="text" id="cvv"  placeholder="CVV">
-        <input type="text" id="date" name="firstname" placeholder="yyyy-mm-dd">
+        <input type="text" id="date" placeholder="Expiry Date">
+        <input type="text" id="pin" placeholder="Pin">
+
         <input type="submit" value="Save">
         </form>
         </div> 
